@@ -399,7 +399,12 @@ color: var(--active-and-hover-color);
     padding: 6px 27px 6px 27px;
 }
 .button-choices > li{
-      margin-right: 8px; 
+      margin-right: 8px;     
+}
+
+.button-choices{
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 .button-item:hover,
 .button-item:focus{
@@ -418,11 +423,12 @@ color: var(--active-and-hover-color);
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0px;
+  margin-bottom: 94px;
 }
 .projects-item{
-  
-  padding-bottom: 94px;
+  justify-content: space-between;
 }
+
 .project-example{
   font-weight: 700;
   font-size: 18px;
