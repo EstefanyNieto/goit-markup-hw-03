@@ -419,6 +419,10 @@ color: var(--active-and-hover-color);
   justify-content: space-between;
   padding-left: 0px;
 }
+.projects-item{
+  
+  padding-bottom: 94px;
+}
 .project-example{
   font-weight: 700;
   font-size: 18px;
