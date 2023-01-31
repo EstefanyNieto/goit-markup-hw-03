@@ -63,6 +63,11 @@ header{
     
   border-bottom: 1px solid #ECECEC;
 }
+
+main{
+  padding:94px 0;
+}
+
 *,
 *::before,
 *::after {
@@ -276,9 +281,7 @@ margin-bottom: 50px;
   margin-right: 30px;
 }
 
-.what-we-do-images:last-child{
-  margin-right: 0;
-}
+
 
 /*OUR TEAM*/
 
@@ -321,9 +324,6 @@ margin-right:30px;
 background-color: var(--main-bg-color);
 }
 
-.our-team-list:last-child{
-  margin-right: 0;
-}
 
 
 /*footer styling */
@@ -369,6 +369,10 @@ color: var(--contact-detail-footer);
 .address-footer > li{
 margin-bottom: 2px;
 }
+.address-footer>last-child{
+  margin-right: 0;
+
+}
 
 .contact-detail-footer:hover,
 .contact-detail-footer:active,
@@ -403,8 +407,7 @@ color: var(--active-and-hover-color);
 }
 
 .button-choices{
-  margin-top: 94px;
-  margin-bottom: 34px;
+ margin-bottom: 50px;
 }
 .button-item:hover,
 .button-item:focus{
@@ -414,20 +417,22 @@ color: var(--active-and-hover-color);
 
 /* portfolio projects*/
 
+
+
 .portfolio-projects-title{
   display: none;
 }
 
-.projects{
+.projects-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0px;
-  margin-bottom: 94px;
+  margin-top: 94px;
+
+
 }
-.projects-item{
-  justify-content: space-between;
-}
+
 
 .project-example{
   font-weight: 700;
